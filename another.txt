@@ -1,0 +1,6 @@
+This is another text used to push to origin git server
+for push local repository to remote git server, you can use command line below:
+1.add remote
+git remote add origin git@git-server-name:path/repo-name.git
+2.first push(at the same time set up to track files)
+git push -u origin master
